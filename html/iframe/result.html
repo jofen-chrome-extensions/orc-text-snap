@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ORC Text Snap</title>
+<style>
+  html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+    width: 500px;
+    height: 400px;
+    background: white;
+    color: black;
+    text-align: center;
+  }
+  h1 {
+    height: 30px;
+    font-size: 20px;
+  }
+  textarea {
+    width: 450px;
+    height: 200px;
+  }
+  button {
+    width: 30%; /* make the children equal */
+  }
+</style>
+</head>
+
+<body>
+
+<div id="iframe-container">
+  <a href='#' id = "close">Close</a>
+  <h1>ORC Result</h1>
+  <textarea class="scrollabletextbox" id="result" name="result">
+    write something here...
+  </textarea>
+  </p>
+
+  <div id="container">
+    <button id="button_copy">Copy to Clipboard</button>
+    <button id="button_translate">Translate</button>
+  </div>
+</div>
+
+<script src="/vendor/jquery.js"></script>
+<script src="/js/iframe.js"></script>
+<script src="/js/iframe/result.js"></script>
+</body>
+</html>

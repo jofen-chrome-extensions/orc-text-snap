@@ -1,0 +1,33 @@
+{
+  "name": "orc-text-snap",
+  "version": "0.0.1",
+  "description": "Copy text from images and paste into clipboard",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -wp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofen-chrome-extensions/orc-text-snap.git"
+  },
+  "keywords": [
+    "OCR",
+    "Text",
+    "extraction",
+    "optical",
+    "character",
+    "recognition"
+  ],
+  "author": "Jiaofen Xu",
+  "bugs": {
+    "url": "https://github.com/jofen-chrome-extensions/orc-text-snap/issues"
+  },
+  "homepage": "https://github.com/jofen-chrome-extensions/orc-text-snap#readme",
+  "devDependencies": {
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "tesseract.js": "^1.0.14"
+  }
+}
