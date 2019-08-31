@@ -21,12 +21,11 @@ Webpack will bundle the Javascript files into `./dist/main.js` which will be use
 
 How to use it:
 1. Click the icon, then select the area/image containing the text. 
-2. Wait until the tool to extract the text for you and load it into your Clipboard
-3. Ctrl + V to paste it anywhere
-4. You can define the targeted ORC language on the options page.
-
-If you need text translation, check out this [Chrome Extension](https://chrome.google.com/webstore/detail/condlopdddofpgcdjfnoepbdkcgckmgb)
+2. Wait until the tool to extract the text for you.
+3. Extracted result will show in a text box. You can then click the copy button to load it into your Clipboard and Ctrl + V to paste it anywhere.
+4. There is an option to translate the extracted text into your selected language.
+5. You can define the ORC language and targeted translation languages on the options page.
 
 Install extension:
 -----------
-* [Chrome's web store](https://chrome.google.com/webstore/detail/condlopdddofpgcdjfnoepbdkcgckmgb)
+* [Chrome's web store](https://chrome.google.com/webstore/detail/orc-text-snap/cjcbfnbbhjipgbbncobdgdpphnlalife)
