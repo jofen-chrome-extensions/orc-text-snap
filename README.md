@@ -1,5 +1,5 @@
 Optical Character Recognition - Copy text from any image, video or PDF
-===========
+===============
 
 A handy tool to extract text from images, videos or PDF with just one click and crop instead of retyping the text character by character. A tipical use case is to copy any text from youtube videos, image formatted tutorials.
 
